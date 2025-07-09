@@ -150,10 +150,20 @@ main section {
 
 /* Resume section styles*/
 
+.resume-title{
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+}
 .resume-container {
     display: flex;
     gap: 24px;
-    justify-content: center;
+    justify-content: space-between;
+    text-align:justify;
+}
+
+.experience-title{
+    font-size: 25px;
 }
 
 .experience-sub-title {
